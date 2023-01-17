@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hugo": "hugo serve --disableFastRender",
+    "hugo:build": "hugo --gc --minify",
+    "tailwind": "npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/output/styles.css --watch",
+    "tailwind:build": "npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/output/styles.css --minify",
+    "build": "npm run tailwind:build && npm run hugo:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/97Lucaas/portfolio2022hugo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/97Lucaas/portfolio2022hugo/issues"
+  },
+  "homepage": "https://github.com/97Lucaas/portfolio2022hugo#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
