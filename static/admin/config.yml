@@ -30,7 +30,6 @@ collections:
       - { label: 'Project Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: "Background Image"
         name: "thumbnail"
         widget: "image"
