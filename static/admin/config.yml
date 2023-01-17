@@ -40,7 +40,7 @@ collections:
           config:
             multiple: false
       - label: "All Images"
-        name: "thumbnail"
+        name: "images"
         widget: "image"
         choose_url: true
         default: "/uploads/chocolate-dogecoin.jpg"
