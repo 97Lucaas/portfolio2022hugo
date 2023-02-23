@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/97Lucaas/portfolio2022hugo#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
     "tailwindcss": "^3.2.4"
   }
 }

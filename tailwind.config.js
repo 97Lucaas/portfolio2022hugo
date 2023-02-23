@@ -1,6 +1,10 @@
+const defaultTheme = require("tailwindcss/defaultTheme")
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    "./layouts/*.html",
+    "./layouts/**/*.html",
     "./themes/**/layouts/**/*.html",
     "./content/**/layouts/**/*.html",
     "./layouts/**/*.html",
@@ -29,7 +33,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ['Marianne', ...defaultTheme.fontFamily.sans],
+      sans: ['Basier-600', ...defaultTheme.fontFamily.sans],
       display: ['Montserrat']
     },
     container: {
